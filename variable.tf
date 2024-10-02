@@ -39,12 +39,12 @@ variable "subnet4cidr" {
 
 variable "availability_zone_01" {
   type = string
-  default = "ap-south-1a"
+  default = "us-east-2a"
 }
 
 variable "availability_zone_02" {
   type = string
-  default = "ap-south-1b"
+  default = "us-east-2b"
 }
 
 variable "subnet_01" {
