@@ -1,3 +1,3 @@
 provider "aws" {
-  region = "aus-east-2"
+  region = "us-east-2"
 }
