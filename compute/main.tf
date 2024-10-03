@@ -69,7 +69,7 @@ resource "aws_lb_target_group_attachment" "test_01" {
 
 # Application Load Balancer
 
-resource "aws_lb" "Promethous-alb" {
+resource "aws_lb" "ES-alb" {
   name               = var.alb_name
   internal           = var.internal_value
   load_balancer_type = var.ALB_type
