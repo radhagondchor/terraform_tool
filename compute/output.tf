@@ -22,5 +22,5 @@ output "Target_group_arn" {
 # Application LB output
 
 output "ALB_arn" {
-  value = aws_lb.Promethous-alb.arn
+  value = aws_lb.ES-alb.arn
 }
